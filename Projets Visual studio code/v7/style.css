@@ -1,0 +1,322 @@
+#site{position:relative;margin-top:25px;margin-left:auto;margin-right:auto;height:785px;width:974px;}
+body{background: url('images/fond.jpg') no-repeat;background-color:#000000;background-position:50% 0%;background-attachment:fixed;}
+#cache{position:absolute;left:-563px;height:760px;width:573px;z-index:500;background: transparent url('images/cache.png');}
+#bandeau1{position:absolute;top:-2px;left:-2px;width:974px;height:785px;background: url('images/fondAssiette.png');;z-index:0;}
+#bandeau2{position:absolute;top:-2px;left:-2px;width:974px;height:785px;background: url('images/assietteTransp.png');;z-index:200;}
+
+#menuConteneur{
+	margin-top:-2px;
+	position:absolute;
+	top:80px;
+	left: 200px;
+	height: 100%;
+	width: 159px;
+	z-index: 1000;
+}
+#menuFond{
+	position:absolute;
+	top:-29px;
+	left: 200px;
+	height: 814px;
+	width: 159px;
+	z-index: 300;
+	background: url('images/menu.png') no-repeat;
+}
+
+#menuPrincipal1{
+	width: 159px;
+	height: 115px;  <!--ecartement des menus-->
+	padding: 0px 0px 0px 0px;
+}
+#menuPrincipal2{
+	width: 159px;
+	height: 115px;  <!--ecartement des menus-->
+	padding: 0px 0px 0px 0px;
+}
+#menuPrincipal3{
+	width: 159px;
+	height: 115px;  <!--ecartement des menus-->
+	padding: 0px 0px 0px 0px;
+}
+#menuPrincipal4{
+	width: 159px;
+	height: 115px;  <!--ecartement des menus-->
+	padding: 0px 0px 0px 0px;
+}
+#menuPrincipal5{
+	width: 159px;
+	height: 115px;  <!--ecartement des menus-->
+	padding: 0px 0px 0px 0px;
+}
+#menuPrincipal6{
+	width: 159px;
+	height: 115px;  <!--ecartement des menus-->
+	padding: 0px 0px 0px 0px;
+}
+
+#menuPrincipal1 a{
+text-decoration:none;
+	display: block;
+	width: 159px;
+	height: 75px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 19px;
+	color: #cecece;
+}
+#menuPrincipal2 a{
+text-decoration:none;
+	display: block;
+	width: 159px;
+	height: 75px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 19px;
+	color: #cecece;
+}
+#menuPrincipal3 a{
+text-decoration:none;
+	display: block;
+	width: 159px;
+	height: 75px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 19px;
+	color: #cecece;
+}
+#menuPrincipal4 a{
+text-decoration:none;
+	display: block;
+	width: 159px;
+	height: 75px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 19px;
+	color: #cecece;
+}
+#menuPrincipal5 a{
+text-decoration:none;
+	display: block;
+	width: 159px;
+	height: 75px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 19px;
+	color: #cecece;
+}
+#menuPrincipal5 a{
+text-decoration:none;
+	display: block;
+	width: 159px;
+	height: 75px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 19px;
+	color: #cecece;
+}
+#menuPrincipal6 a{
+text-decoration:none;
+	display: block;
+	width: 159px;
+	height: 75px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 19px;
+	color: #cecece;
+}
+
+#titre{
+	font-size: 50px;	
+	font-family: 'Merienda One', cursive;
+	color: #2f2f2f;
+}
+
+#menuConteneur{
+	color: #ffffff;
+}
+
+#logo{
+	position:absolute;
+	top:8px;
+	left:45px;
+	width:76px;
+	height:85px;
+	z-index:10000;
+	background: url('images/logoPetit.png') no-repeat;
+}
+
+
+#grandTitre{
+	position:absolute;
+	top:5px;
+	left:550px;
+	z-index:10000;
+	font-size: 50px;	
+	font-family: 'Merienda One', cursive;
+}
+
+#sousTitre{
+	position:absolute;
+	top:65px;
+	left:720px;
+	z-index:10000;
+	font-size: 18px;	
+	font-family: 'Merienda One', cursive;
+}
+
+#menu1{
+	background: url('images/categorieAchat.png') no-repeat;
+	height: 50px;
+	text-decoration:none;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #cecece;
+	
+}
+#menu2{
+	background: url('images/categorieAchat.png') no-repeat;
+	height: 50px;
+	text-decoration:none;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #cecece;
+}
+#menu3{
+	background: url('images/categorieAchat.png') no-repeat;
+	height: 50px;
+	text-decoration:none;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #cecece;
+}
+
+#menu1 a{
+text-decoration:none;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #696969;
+}
+#menu2 a{	
+	text-decoration:none;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #696969;
+}
+#menu3 a{
+	text-decoration:none;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: #696969;
+}
+
+#divButtonCetC1 a{
+	text-decoration:none;
+	display: block;
+	width: 100%;
+	height: 30px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-size: 15px;
+	color: #000000;
+	border: 1px solid black;
+}
+#divButtonCetC2 a{
+	text-decoration:none;
+	display: block;
+	width: 100%;
+	height: 30px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-size: 15px;
+	color: #000000;
+	border: 1px solid black;
+}
+#divButtonCetC3 a{
+	text-decoration:none;
+	display: block;
+	width: 100%;
+	height: 30px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-size: 15px;
+	color: #000000;
+	border: 1px solid black;
+}
+#divButtonCetC4 a{
+	text-decoration:none;
+	display: block;
+	width: 100%;
+	height: 30px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-size: 15px;
+	color: #000000;
+	border: 1px solid black;
+}
+
+#divButtonCetC5 a{
+	text-decoration:none;
+	display: block;
+	width: 100%;
+	height: 30px;
+	text-align:center;
+	font-family: verdana;
+	font-variant: small-caps;
+	font-style: italic;
+	font-size: 15px;
+	color: #000000;
+	border: 1px solid black;
+}
